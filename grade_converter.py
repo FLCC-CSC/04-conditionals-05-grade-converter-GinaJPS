@@ -1,8 +1,8 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Regina Swartout
+# DATE: 2/18/26
+# BRIEF DESCRIPTION:  This program will ask for a percentage and will return the corresponding letter grade.
 
 
 
@@ -14,23 +14,30 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+print("===== Grade Converter =====")
+grade = int(input("Enter a numerical grade (1-100): "))
 
-print('===== Grade Converter =====')
-
-percent = int(input('Enter a numerical grade (1-100): '))
-
-if percent > 100:
-    print('A+')
-elif percent >= 90:
-    print('A')
-elif percent >= 80:
-    print('B')
-elif percent >= 70:
-    print('C')
-elif percent >= 65:
-    print('D')
+if grade > 100:
+    print("A+")
+elif grade >= 90:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
+elif grade >= 65:
+    print("D")
 else:
-    print('F')
+    print("F")
+
+
+
+
+
+
+
+
+
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -84,7 +91,8 @@ D
 
 1. What is something you would tell a future student to be careful about when
    doing this lab?
-
+Becareful with the comparison operators.  Take your time to make sure that each if-elif-else statement is checking 
+for the correct range of values.  Test your code often and use at least 3 test cases near the end of each range.
 
 
 
